@@ -1,0 +1,26 @@
+/*=============================================
+=            Homemade page layout            =
+=============================================*/
+#pageContainer,
+#postContent,
+footer {
+  max-width: 65rem;
+  padding: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#pageContainer {
+  background-color: rebeccapurple;
+  color: #ffffff;
+}
+#postContent {
+  font-size: 1.5rem;
+  background-color: #f2f2f2;
+}
+footer {
+  background: #000000;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
